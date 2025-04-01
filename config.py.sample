@@ -1,0 +1,24 @@
+# API请求延迟（秒）
+API_REQUEST_DELAY = 1
+
+# 起始年份和季度
+START_YEAR = 2022
+START_QUARTER = 1
+
+# 终止年份和季度
+END_YEAR = 2023
+END_QUARTER = 4
+
+# 输出目录名
+OUTPUT_DIR_NAME = "transcripts"
+
+# 是否创建空的财报记录文件（当API返回没有数据时）
+CREATE_EMPTY_TRANSCRIPT = False
+
+# 目标公司列表
+# 格式：[("公司名称", "股票代码", "cik编号", "交易所"), ...]
+TARGET_COMPANIES = [
+    ("Apple Inc.", "AAPL", "0000320193", "NASDAQ"),
+    ("Microsoft Corporation", "MSFT", "0000789019", "NASDAQ"),
+    # 添加更多公司...
+]
