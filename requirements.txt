@@ -2,4 +2,4 @@ requests>=2.28.2
 python-dotenv>=1.0.0
 earningscall>=0.1.0
 pathlib>=1.0.1
-argparse>=1.4.0 
+argparse>=1.4.0

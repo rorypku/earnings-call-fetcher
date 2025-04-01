@@ -109,4 +109,4 @@ python fetch_earningscall.py --start-year 2022 --start-quarter 1 --end-year 2023
 
 ## 贡献
 
-欢迎提交问题和改进建议! 
+欢迎提交问题和改进建议!
